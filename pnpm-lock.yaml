@@ -18,6 +18,10 @@ importers:
         version: 1.6.0
 
   packages/sneakpeek:
+    dependencies:
+      '@momogoyo/shared':
+        specifier: workspace:*
+        version: link:../shared
     devDependencies:
       typescript:
         specifier: ^5.2.2
