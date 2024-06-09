@@ -1,4 +1,5 @@
-export { config } from './config'
-export { state } from './state'
+export * from './Config'
+export * from './State'
 
-export { default } from './sneakpeek'
+export * from './types'
+export { default } from './Sneakpeek'
